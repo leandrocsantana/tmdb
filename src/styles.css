@@ -1,1 +1,64 @@
 /* You can add global styles to this file, and also import other style files */
+
+/* Nav */
+nav {
+  background-color: #F2F2F2 !important;
+}
+nav .brand-logo {
+  position: absolute;
+  color: #959595 !important;
+  display: inline-block;
+  font-size: 2.1rem;
+  padding: 0;
+}
+nav a {
+  color: #959595 !important;
+}
+nav ul a {
+  transition: background-color .3s;
+  font-size: 1rem;
+  color: #959595 !important;
+  display: block;
+  padding: 0 15px;
+  cursor: pointer;
+}
+/* Fonts */
+.fs-12{
+  font-size: 12px;;
+}
+.fs-36{
+  font-size: 36px !important;;
+}
+.fs-48{
+  font-size: 48px !important;;
+}
+/* Margim */
+.mt-10{
+  margin-top: 10px;;
+}
+.mt-12{
+  margin-top: 12px;
+}
+.mt-30{
+  margin-top: 30px !important;
+}
+.mt-70{
+  margin-top: 70px;
+}
+/* Colors */
+.color-gold{
+  color: gold;
+}
+.color-black{
+  color: #000;
+}
+/* Buttons */
+.btn-informacoes{
+  background-color: #002855;
+  color: #fff;
+  width: 100%;
+}
+/* Card */
+.card-title{
+  font-weight: bold;
+}
