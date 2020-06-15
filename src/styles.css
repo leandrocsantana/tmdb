@@ -22,6 +22,21 @@ nav ul a {
   padding: 0 15px;
   cursor: pointer;
 }
+.page-footer {
+  padding-top: 20px;
+  color: #959595 !important;
+  background-color: #F2F2F2  !important;
+}
+.page-footer .footer-copyright {
+  overflow: hidden;
+  min-height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 0px;
+  color: #959595 !important;
+  background-color: #F2F2F2 !important;
+}
 /* Fonts */
 .fs-12{
   font-size: 12px !important;
@@ -42,7 +57,12 @@ nav ul a {
 .pr-0{
   padding-right: 0 !important;
 }
-
+.pl-10{
+  padding-left: 10px;
+}
+.pr-10{
+  padding-right: 10px;
+}
 /* Margim */
 .mt-10{
   margin-top: 10px;;
@@ -59,6 +79,9 @@ nav ul a {
 .mr-20{
   margin-right: 20px;;
 }
+.ml-20{
+  margin-left: 20px;;
+}
 /* Colors */
 .color-gold{
   color: gold;
@@ -68,6 +91,9 @@ nav ul a {
 }
 .color-gray{
   color: #959595;
+}
+.color-gray-2{
+  color: #CCCCCC !important;
 }
 
 /* Buttons */
@@ -85,4 +111,9 @@ nav ul a {
 .card-title{
   font-weight: bold;
 }
+.btn-floating{
+  background-color: #CCCCCC !important;
+}
+
+
 
